@@ -1,12 +1,13 @@
 #PURPOSE: This software will edit a set of png images without a given object from a given collection folder
-                  #by drawing an object on it in a random location and of a random size.  The object drawn is the
-                  #image of the raw file, ONE file that is not truncated and contains only one bounding box in the
-                  #corresponding text file.  The image drawn will be at a random coordinate and a random size.
-                  #After the image is pasted, text files will be generated in the collection folder with a corresonding
-                  #name to the image file edited and with already labelled coordinated.
-                  #NOTE: This will only generate one bounding box per image per run.
-                  #WARNING: This program changes the contents within the given directories.  Png images will be
-                                     #permenantly edited.
+          #by drawing an object on it in a random location and of a random size.  The object drawn is the
+          #image of the raw file, ONE file that is not truncated and contains only one bounding box in the
+          #corresponding text file.  The image drawn will be at a random coordinate and a random size.
+          #After the image is pasted, text files will be generated in the collection folder with a corresonding
+          #name to the image file edited and with already labelled coordinated.
+          #NOTE: This will only generate one bounding box per image per run.
+          #NOTE: Text files generated will be in KITTI format
+          #WARNING: This program changes the contents within the given directories.  Png images will be
+                   #permenantly edited.
 
 #INSTRUCTIONS:
 #all text files will generate in KITTI format
